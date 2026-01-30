@@ -1,7 +1,7 @@
 [theme]
 primaryColor = "#FF6B6B"
 backgroundColor = "#0E1117"
-secondaryBackgroundColor = "#262730"
+secondaryBackgroundColor = "#1E2127"
 textColor = "#FAFAFA"
 font = "sans serif"
 
@@ -14,5 +14,15 @@ enableXsrfProtection = true
 [browser]
 gatherUsageStats = false
 
+[runner]
+magicEnabled = true
+fastReruns = true
+
+# 👇 AJOUTEZ CETTE SECTION pour masquer le bouton Edit
+[client]
+toolbarMode = "minimal"
+showErrorDetails = false
+
 [ui]
+hideTopBar = false
 hideSidebarNav = false
