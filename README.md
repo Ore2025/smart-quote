@@ -2,7 +2,7 @@
 
 Application web moderne de génération de citations inspirantes avec intelligence artificielle.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://votre-app.streamlit.app)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://smart-quote.streamlit.app/)
 
 ## ✨ Fonctionnalités
 
@@ -17,11 +17,7 @@ Application web moderne de génération de citations inspirantes avec intelligen
 
 ## 🚀 Démo en ligne
 
-👉 [**Essayer l'application**](https://votre-app.streamlit.app)
-
-## 📸 Screenshots
-
-![Quote Generator Pro](https://via.placeholder.com/800x400?text=Screenshot)
+👉 [**Essayer l'application**](https://smart-quote.streamlit.app/)
 
 ## 🛠️ Technologies
 
@@ -34,11 +30,10 @@ Application web moderne de génération de citations inspirantes avec intelligen
 - **API** : ZenQuotes, OpenWeather
 
 ## 📦 Installation locale
-
 ```bash
 # Cloner le repo
-git clone https://github.com/votre-username/quote-generator-pro.git
-cd quote-generator-pro
+git clone https://github.com/Ore2025/smart-quote.git
+cd smart-quote
 
 # Créer environnement virtuel
 python -m venv venv
@@ -53,29 +48,27 @@ pip install -r requirements.txt
 streamlit run app/main_pro.py
 ```
 
-## 🌐 Déploiement
+## 🌐 Déployer votre propre version
 
-L'application est déployée sur **Streamlit Community Cloud**.
+Vous pouvez déployer votre propre instance de l'application :
 
-Pour déployer votre propre version :
-1. Fork ce repo
-2. Connectez-vous sur [share.streamlit.io](https://share.streamlit.io)
+1. **Fork ce repository** sur votre compte GitHub
+2. Connectez-vous sur [share.streamlit.io](https://share.streamlit.io/)
 3. Déployez depuis votre fork
+4. Personnalisez selon vos besoins !
 
 ## ⚙️ Configuration
 
 ### Variables d'environnement (optionnel)
 
 Créer `.streamlit/secrets.toml` :
-
 ```toml
 OPENWEATHER_API_KEY = "votre_clé_api"
 ```
 
 ## 📁 Structure du projet
-
 ```
-quote-generator-pro/
+smart-quote/
 ├── app/
 │   ├── core/           # Logique métier
 │   ├── design/         # Génération d'images
@@ -105,31 +98,19 @@ quote-generator-pro/
 - ✨ Inspiration
 - 🤖 Auto (IA)
 
-## 🤝 Contribution
-
-Les contributions sont les bienvenues !
-
-1. Fork le projet
-2. Créez votre branche (`git checkout -b feature/AmazingFeature`)
-3. Commit (`git commit -m 'Add AmazingFeature'`)
-4. Push (`git push origin feature/AmazingFeature`)
-5. Ouvrez une Pull Request
-
 ## 📝 Licence
 
 MIT License - Voir [LICENSE](LICENSE)
 
-## 👤 Auteur
-
-Votre Nom - [@votre_twitter](https://twitter.com/votre_twitter)
+**Note** : Ce projet est partagé à des fins éducatives. Vous pouvez le forker et l'améliorer pour votre usage personnel, mais les contributions directes ne sont pas acceptées.
 
 ## 🙏 Remerciements
 
 - [Streamlit](https://streamlit.io/)
 - [ZenQuotes API](https://zenquotes.io/)
 - [OpenWeather API](https://openweathermap.org/)
-- [Deep Translator](https://github.com/nidhaloff/deep-translator)
+- [Deep Translator](https://github.com/nidhaloff/deep-translator/)
 
 ---
 
-⭐ **N'oubliez pas de laisser une étoile si vous aimez le projet !**
+💡 **Libre d'utilisation** : Forkez, clonez, améliorez pour votre propre usage !
