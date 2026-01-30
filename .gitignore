@@ -27,3 +27,5 @@ Thumbs.db
 
 # Tests
 test_*.py
+
+.env
