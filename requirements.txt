@@ -1,0 +1,23 @@
+# Quote Generator Pro - Requirements
+# Optimisé pour Streamlit Community Cloud
+
+# Framework principal
+streamlit>=1.31.0
+
+# Traduction et NLP
+deep-translator>=1.11.4
+textblob>=0.17.1
+vaderSentiment>=3.3.2
+nltk>=3.8.1
+
+# Traitement d'images
+Pillow>=10.0.0
+
+# Base de données et stockage
+tinydb>=4.8.0
+
+# API et requêtes
+requests>=2.31.0
+
+# Utilitaires
+python-dotenv>=1.0.0
